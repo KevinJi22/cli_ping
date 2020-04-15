@@ -253,7 +253,7 @@ int main(int argc, char **argv) {
     uint16_t id = (uint16_t)getpid(), seq;
 
     if (argc < 2) {
-        printf("Usage: %s [-4 (IPv4) or -6 (IPv6)] hostname/IP address\n", argv[0]);
+        printf("Usage: sudo %s [-4 (IPv4) or -6 (IPv6)] hostname/IP address\n", argv[0]);
         exit(EXIT_FAILURE);
     }
 
